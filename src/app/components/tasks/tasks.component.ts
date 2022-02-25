@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from '../../services/task.service';
-import {Task} from '../../Task';
+import { Task } from '../../Task';
 
 
 @Component({
@@ -26,10 +26,15 @@ export class TasksComponent implements OnInit {
     this.taskService.updateTaskReminder(task).subscribe();
   }
 
+  addTask(task: Task) {
+    console.log(task);
+  }
+
   ngOnInit(): void {
     this.taskService.getTasks().subscribe((tasks) => {
       this.tasks = tasks
     });
   }
+
 
 }

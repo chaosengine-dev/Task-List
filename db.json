@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Ir al baño",
-      "day": "Agosto 5 a las 12",
-      "reminder": true
-    },
-    {
       "id": 2,
       "text": "Lavarse los dientes",
       "day": "Septiembre 6",
