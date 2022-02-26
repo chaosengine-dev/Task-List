@@ -17,6 +17,18 @@
       "text": "Estudiar",
       "day": "Septiembre 6",
       "reminder": true
+    },
+    {
+      "id": 5,
+      "text": "Seguir con Udemy",
+      "day": "26-02-2022",
+      "reminder": true
+    },
+    {
+      "id": 6,
+      "text": "Seguir con Udemy",
+      "day": "26-02-2022",
+      "reminder": true
     }
   ]
 }
