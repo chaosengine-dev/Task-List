@@ -29,6 +29,12 @@
       "text": "Seguir con Udemy",
       "day": "26-02-2022",
       "reminder": true
+    },
+    {
+      "id": 7,
+      "text": "Terminar este proyecto",
+      "day": "en mayo",
+      "reminder": true
     }
   ]
 }
